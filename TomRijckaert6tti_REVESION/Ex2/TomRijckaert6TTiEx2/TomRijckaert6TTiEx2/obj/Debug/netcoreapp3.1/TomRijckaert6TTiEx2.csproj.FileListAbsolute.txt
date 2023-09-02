@@ -1,0 +1,14 @@
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\TomRijckaert6tti_REVESION\Ex2\TomRijckaert6TTiEx2\TomRijckaert6TTiEx2\bin\Debug\netcoreapp3.1\TomRijckaert6TTiEx2.exe
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\TomRijckaert6tti_REVESION\Ex2\TomRijckaert6TTiEx2\TomRijckaert6TTiEx2\bin\Debug\netcoreapp3.1\TomRijckaert6TTiEx2.deps.json
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\TomRijckaert6tti_REVESION\Ex2\TomRijckaert6TTiEx2\TomRijckaert6TTiEx2\bin\Debug\netcoreapp3.1\TomRijckaert6TTiEx2.runtimeconfig.json
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\TomRijckaert6tti_REVESION\Ex2\TomRijckaert6TTiEx2\TomRijckaert6TTiEx2\bin\Debug\netcoreapp3.1\TomRijckaert6TTiEx2.runtimeconfig.dev.json
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\TomRijckaert6tti_REVESION\Ex2\TomRijckaert6TTiEx2\TomRijckaert6TTiEx2\bin\Debug\netcoreapp3.1\TomRijckaert6TTiEx2.dll
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\TomRijckaert6tti_REVESION\Ex2\TomRijckaert6TTiEx2\TomRijckaert6TTiEx2\bin\Debug\netcoreapp3.1\TomRijckaert6TTiEx2.pdb
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\TomRijckaert6tti_REVESION\Ex2\TomRijckaert6TTiEx2\TomRijckaert6TTiEx2\obj\Debug\netcoreapp3.1\TomRijckaert6TTiEx2.csproj.AssemblyReference.cache
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\TomRijckaert6tti_REVESION\Ex2\TomRijckaert6TTiEx2\TomRijckaert6TTiEx2\obj\Debug\netcoreapp3.1\TomRijckaert6TTiEx2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\TomRijckaert6tti_REVESION\Ex2\TomRijckaert6TTiEx2\TomRijckaert6TTiEx2\obj\Debug\netcoreapp3.1\TomRijckaert6TTiEx2.AssemblyInfoInputs.cache
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\TomRijckaert6tti_REVESION\Ex2\TomRijckaert6TTiEx2\TomRijckaert6TTiEx2\obj\Debug\netcoreapp3.1\TomRijckaert6TTiEx2.AssemblyInfo.cs
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\TomRijckaert6tti_REVESION\Ex2\TomRijckaert6TTiEx2\TomRijckaert6TTiEx2\obj\Debug\netcoreapp3.1\TomRijckaert6TTiEx2.csproj.CoreCompileInputs.cache
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\TomRijckaert6tti_REVESION\Ex2\TomRijckaert6TTiEx2\TomRijckaert6TTiEx2\obj\Debug\netcoreapp3.1\TomRijckaert6TTiEx2.dll
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\TomRijckaert6tti_REVESION\Ex2\TomRijckaert6TTiEx2\TomRijckaert6TTiEx2\obj\Debug\netcoreapp3.1\TomRijckaert6TTiEx2.pdb
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\TomRijckaert6tti_REVESION\Ex2\TomRijckaert6TTiEx2\TomRijckaert6TTiEx2\obj\Debug\netcoreapp3.1\TomRijckaert6TTiEx2.genruntimeconfig.cache
