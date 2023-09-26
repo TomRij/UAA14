@@ -1,0 +1,5 @@
+C:\Users\200082\source\repos\I2P623_RijckaertTom\I2P623_RijckaertTom\obj\Debug\net6.0\I2P623_RijckaertTom.csproj.AssemblyReference.cache
+C:\Users\200082\source\repos\I2P623_RijckaertTom\I2P623_RijckaertTom\obj\Debug\net6.0\I2P623_RijckaertTom.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\200082\source\repos\I2P623_RijckaertTom\I2P623_RijckaertTom\obj\Debug\net6.0\I2P623_RijckaertTom.AssemblyInfoInputs.cache
+C:\Users\200082\source\repos\I2P623_RijckaertTom\I2P623_RijckaertTom\obj\Debug\net6.0\I2P623_RijckaertTom.AssemblyInfo.cs
+C:\Users\200082\source\repos\I2P623_RijckaertTom\I2P623_RijckaertTom\obj\Debug\net6.0\I2P623_RijckaertTom.csproj.CoreCompileInputs.cache
