@@ -1,0 +1,5 @@
+H:\UAA14\MatchingGame_RijckaertTom\MatchingGame_RijckaertTom\obj\Debug\net6.0-windows\MatchingGame_RijckaertTom.csproj.AssemblyReference.cache
+H:\UAA14\MatchingGame_RijckaertTom\MatchingGame_RijckaertTom\obj\Debug\net6.0-windows\MainWindow.g.cs
+H:\UAA14\MatchingGame_RijckaertTom\MatchingGame_RijckaertTom\obj\Debug\net6.0-windows\App.g.cs
+H:\UAA14\MatchingGame_RijckaertTom\MatchingGame_RijckaertTom\obj\Debug\net6.0-windows\MatchingGame_RijckaertTom_MarkupCompile.cache
+H:\UAA14\MatchingGame_RijckaertTom\MatchingGame_RijckaertTom\obj\Debug\net6.0-windows\MatchingGame_RijckaertTom_MarkupCompile.lref
