@@ -13,6 +13,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
+
 
 namespace MatchingGame_RijckaertTom
 {
@@ -21,19 +23,33 @@ namespace MatchingGame_RijckaertTom
     /// </summary>
     public partial class MainWindow : Window
     {
+        DispatcherTimer timer = new DispatcherTimer();
+        int tempsEcoule = 0;
+        int nbPairesTrouvees = 0;
+
+
+
+
         public MainWindow()
         {
             InitializeComponent();
 
+            timer.Interval = TimeSpan.FromSeconds(.1);
+            timer.Tick += new EventHandler(Timer_Tick);
 
 
-
+            SetUpGame();
 
         }
 
         private void SetUpGame()
             {
-                List<string> animalEmoji = new List<string>()
+
+            tempsEcoule = 0;
+            nbPairesTrouvees = 0;
+            timer.Start();
+
+            List<string> animalEmoji = new List<string>()
                     {
                         "🐈","🐈",
                         "🐷","🐷",
@@ -50,13 +66,69 @@ namespace MatchingGame_RijckaertTom
             Random alea = new Random();
                 foreach (TextBlock textBlock in grdMain.Children.OfType<TextBlock>())
                 {
-                    index = alea.Next(animalEmoji.Count); // index est de type int
-                                                            // nbalea est un objet de type Random()
-                    nextEmoji = animalEmoji[index]; // nextEmoji est de type string
-                    textBlock.Text = nextEmoji;
-                    animalEmoji.RemoveAt(index); // on retire un animal de la liste pour ne pas l’attribuer à nouveau.
+                    if (textBlock.Name != "txtTemps")
+                    {
+
+                        index = alea.Next(animalEmoji.Count); // index est de type int
+                                                             // nbalea est un objet de type Random()
+                        nextEmoji = animalEmoji[index]; // nextEmoji est de type string
+                        textBlock.Text = nextEmoji;
+                        animalEmoji.RemoveAt(index); // on retire un animal de la liste pour ne pas l’attribuer à nouveau.
+                    }
                 }
             }
+
+        TextBlock derniereTBClique; // on va l’utiliser pour faire une référence à  la TextBlock sur laquelle on vient de cliquer
+        bool trouvePaire = false;
+
+        private void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            TextBlock textBlockActif = sender as TextBlock;
+            if (!trouvePaire)
+            {
+                textBlockActif.Visibility = Visibility.Hidden;
+                derniereTBClique = textBlockActif;
+                trouvePaire = true;
+            }
+            else if (textBlockActif.Text == derniereTBClique.Text)
+            {
+                nbPairesTrouvees++;
+                textBlockActif.Visibility = Visibility.Hidden;
+                trouvePaire = false;
+            }
+            else
+            {
+                derniereTBClique.Visibility = Visibility.Visible;
+                trouvePaire = false;
+            }
+
+
+
+        }
+        private void txtTemps_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (nbPairesTrouvees == 8)
+            {
+                SetUpGame();
+            }
+        }
+
+
+
+
+
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            tempsEcoule++;
+            txtTemps.Text = (tempsEcoule / 10F).ToString("0.0s");
+            if (nbPairesTrouvees == 8)
+            {
+                timer.Stop();
+                txtTemps.Text = txtTemps.Text + " - Rejouer ? ";
+            }
+
+        }
+
 
     }
 }
