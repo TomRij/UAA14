@@ -8,28 +8,41 @@ namespace ACT_2_POO_exercices_simples
 {
     class Complexe
     {
-        private int _reelle;
-        private int _imaginaire;
+        private double _reelle;
+        private double _imaginaire;
 
-        public Complexe(int reelle, int imaginaire)
+        public Complexe(double reelle, double imaginaire)
         {
             _reelle = reelle;
             _imaginaire = imaginaire;
         }
 
-        public string AfficheComplexe()
+        public double Reelle
         {
-            return $"({_reelle}, {_imaginaire}";
+            get { return _reelle; }
+            set { _reelle = value; }
         }
 
-        public int CalculeModule()
+        public double Imaginaire
         {
-            return _reelle * _reelle + _imaginaire * _imaginaire;
+            get { return _imaginaire; }
+            set { _imaginaire = value; }
+        }
+
+        public string AfficheComplexe()
+        {
+            return $"({_reelle}, {_imaginaire})";
+        }
+
+        public double CalculeModule()
+        {
+            return Math.Sqrt(_reelle * _reelle + _imaginaire * _imaginaire);
         }
 
         public void Ajoute(Complexe x)
         {
-
+            _reelle += x.Reelle;
+            _imaginaire += x.Imaginaire;
         }
     }
 }
