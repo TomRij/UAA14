@@ -23,6 +23,18 @@ namespace TomRijckaert_WPFACT3EVENTS
         public MainWindow()
         {
             InitializeComponent();
+            BtnCalculer.Click += new RoutedEventHandler(BtnCalculer_Click);
         }
+
+        private void BtnCalculer_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnCalculer_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

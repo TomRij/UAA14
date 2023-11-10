@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Button x:Name="BtnCalculer" Content="CALCULER" FontSize="36" FontWeight="Bold" Click="BtnCalculer_Click" />
     </Grid>
 </Window>
