@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "H:\\UAA14\\Tom_Rijckaert_ACT_3_Éléphants\\Tom_Rijckaert_ACT_3_Éléphants\\Tom_Rijckaert_ACT_3_Éléphants.csproj": {}
+    "C:\\Users\\Tom\\OneDrive\\Documents\\école\\6e\\info\\UAA14\\Tom_Rijckaert_ACT_3_Éléphants\\Tom_Rijckaert_ACT_3_Éléphants\\Tom_Rijckaert_ACT_3_Éléphants.csproj": {}
   },
   "projects": {
-    "H:\\UAA14\\Tom_Rijckaert_ACT_3_Éléphants\\Tom_Rijckaert_ACT_3_Éléphants\\Tom_Rijckaert_ACT_3_Éléphants.csproj": {
+    "C:\\Users\\Tom\\OneDrive\\Documents\\école\\6e\\info\\UAA14\\Tom_Rijckaert_ACT_3_Éléphants\\Tom_Rijckaert_ACT_3_Éléphants\\Tom_Rijckaert_ACT_3_Éléphants.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\UAA14\\Tom_Rijckaert_ACT_3_Éléphants\\Tom_Rijckaert_ACT_3_Éléphants\\Tom_Rijckaert_ACT_3_Éléphants.csproj",
+        "projectUniqueName": "C:\\Users\\Tom\\OneDrive\\Documents\\école\\6e\\info\\UAA14\\Tom_Rijckaert_ACT_3_Éléphants\\Tom_Rijckaert_ACT_3_Éléphants\\Tom_Rijckaert_ACT_3_Éléphants.csproj",
         "projectName": "Tom_Rijckaert_ACT_3_Éléphants",
-        "projectPath": "H:\\UAA14\\Tom_Rijckaert_ACT_3_Éléphants\\Tom_Rijckaert_ACT_3_Éléphants\\Tom_Rijckaert_ACT_3_Éléphants.csproj",
-        "packagesPath": "C:\\Users\\200082\\.nuget\\packages\\",
-        "outputPath": "H:\\UAA14\\Tom_Rijckaert_ACT_3_Éléphants\\Tom_Rijckaert_ACT_3_Éléphants\\obj\\",
+        "projectPath": "C:\\Users\\Tom\\OneDrive\\Documents\\école\\6e\\info\\UAA14\\Tom_Rijckaert_ACT_3_Éléphants\\Tom_Rijckaert_ACT_3_Éléphants\\Tom_Rijckaert_ACT_3_Éléphants.csproj",
+        "packagesPath": "C:\\Users\\Tom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tom\\OneDrive\\Documents\\école\\6e\\info\\UAA14\\Tom_Rijckaert_ACT_3_Éléphants\\Tom_Rijckaert_ACT_3_Éléphants\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\200082\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

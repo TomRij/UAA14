@@ -23,10 +23,11 @@ namespace Tom_Rijckaert_ACT_3_Éléphants
         public uint TailleOreilles
         {
             get { return _TailleOreilles; }
+            set { _TailleOreilles = value; }
         }
         public string Affichequijesuis()
         {
-            return _nom + " a une taille d'oreille de " + _TailleOreilles;
+            return "Je suis "+ _nom + " j'ai une taille d'oreille de " + _TailleOreilles;
         }
 
         public void EcouteMessage(string message, Elephant quiDit)

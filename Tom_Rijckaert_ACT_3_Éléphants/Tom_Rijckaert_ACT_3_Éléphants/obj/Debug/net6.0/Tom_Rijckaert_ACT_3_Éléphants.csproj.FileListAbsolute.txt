@@ -1,0 +1,15 @@
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\Tom_Rijckaert_ACT_3_Éléphants\Tom_Rijckaert_ACT_3_Éléphants\obj\Debug\net6.0\Tom_Rijckaert_ACT_3_Éléphants.csproj.AssemblyReference.cache
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\Tom_Rijckaert_ACT_3_Éléphants\Tom_Rijckaert_ACT_3_Éléphants\obj\Debug\net6.0\Tom_Rijckaert_ACT_3_Éléphants.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\Tom_Rijckaert_ACT_3_Éléphants\Tom_Rijckaert_ACT_3_Éléphants\obj\Debug\net6.0\Tom_Rijckaert_ACT_3_Éléphants.AssemblyInfoInputs.cache
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\Tom_Rijckaert_ACT_3_Éléphants\Tom_Rijckaert_ACT_3_Éléphants\obj\Debug\net6.0\Tom_Rijckaert_ACT_3_Éléphants.AssemblyInfo.cs
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\Tom_Rijckaert_ACT_3_Éléphants\Tom_Rijckaert_ACT_3_Éléphants\obj\Debug\net6.0\Tom_Rijckaert_ACT_3_Éléphants.csproj.CoreCompileInputs.cache
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\Tom_Rijckaert_ACT_3_Éléphants\Tom_Rijckaert_ACT_3_Éléphants\bin\Debug\net6.0\Tom_Rijckaert_ACT_3_Éléphants.exe
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\Tom_Rijckaert_ACT_3_Éléphants\Tom_Rijckaert_ACT_3_Éléphants\bin\Debug\net6.0\Tom_Rijckaert_ACT_3_Éléphants.deps.json
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\Tom_Rijckaert_ACT_3_Éléphants\Tom_Rijckaert_ACT_3_Éléphants\bin\Debug\net6.0\Tom_Rijckaert_ACT_3_Éléphants.runtimeconfig.json
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\Tom_Rijckaert_ACT_3_Éléphants\Tom_Rijckaert_ACT_3_Éléphants\bin\Debug\net6.0\Tom_Rijckaert_ACT_3_Éléphants.dll
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\Tom_Rijckaert_ACT_3_Éléphants\Tom_Rijckaert_ACT_3_Éléphants\bin\Debug\net6.0\Tom_Rijckaert_ACT_3_Éléphants.pdb
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\Tom_Rijckaert_ACT_3_Éléphants\Tom_Rijckaert_ACT_3_Éléphants\obj\Debug\net6.0\Tom_Rijckaert_ACT_3_Éléphants.dll
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\Tom_Rijckaert_ACT_3_Éléphants\Tom_Rijckaert_ACT_3_Éléphants\obj\Debug\net6.0\refint\Tom_Rijckaert_ACT_3_Éléphants.dll
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\Tom_Rijckaert_ACT_3_Éléphants\Tom_Rijckaert_ACT_3_Éléphants\obj\Debug\net6.0\Tom_Rijckaert_ACT_3_Éléphants.pdb
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\Tom_Rijckaert_ACT_3_Éléphants\Tom_Rijckaert_ACT_3_Éléphants\obj\Debug\net6.0\Tom_Rijckaert_ACT_3_Éléphants.genruntimeconfig.cache
+C:\Users\Tom\OneDrive\Documents\école\6e\info\UAA14\Tom_Rijckaert_ACT_3_Éléphants\Tom_Rijckaert_ACT_3_Éléphants\obj\Debug\net6.0\ref\Tom_Rijckaert_ACT_3_Éléphants.dll
