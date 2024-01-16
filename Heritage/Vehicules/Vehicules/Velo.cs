@@ -25,5 +25,10 @@ namespace Vehicules
             _type = type;
             _estElectrique = electrique;
         }
+
+        public override string Affiche()
+        {
+            return "Le vehucule " + Modele + " a pour marque : " + Marque + ", comme couleur " + Couleur + " et comme prix : " + Prix + " possède commme type : " + Type + ", Électrique : " + EstElectrique + ".";
+        }
     }
 }

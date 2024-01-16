@@ -1,0 +1,15 @@
+H:\UAA14\Heritage\Vehicules\Vehicules\bin\Debug\net6.0\Vehicules.exe
+H:\UAA14\Heritage\Vehicules\Vehicules\bin\Debug\net6.0\Vehicules.deps.json
+H:\UAA14\Heritage\Vehicules\Vehicules\bin\Debug\net6.0\Vehicules.runtimeconfig.json
+H:\UAA14\Heritage\Vehicules\Vehicules\bin\Debug\net6.0\Vehicules.dll
+H:\UAA14\Heritage\Vehicules\Vehicules\bin\Debug\net6.0\Vehicules.pdb
+H:\UAA14\Heritage\Vehicules\Vehicules\obj\Debug\net6.0\Vehicules.csproj.AssemblyReference.cache
+H:\UAA14\Heritage\Vehicules\Vehicules\obj\Debug\net6.0\Vehicules.GeneratedMSBuildEditorConfig.editorconfig
+H:\UAA14\Heritage\Vehicules\Vehicules\obj\Debug\net6.0\Vehicules.AssemblyInfoInputs.cache
+H:\UAA14\Heritage\Vehicules\Vehicules\obj\Debug\net6.0\Vehicules.AssemblyInfo.cs
+H:\UAA14\Heritage\Vehicules\Vehicules\obj\Debug\net6.0\Vehicules.csproj.CoreCompileInputs.cache
+H:\UAA14\Heritage\Vehicules\Vehicules\obj\Debug\net6.0\Vehicules.dll
+H:\UAA14\Heritage\Vehicules\Vehicules\obj\Debug\net6.0\refint\Vehicules.dll
+H:\UAA14\Heritage\Vehicules\Vehicules\obj\Debug\net6.0\Vehicules.pdb
+H:\UAA14\Heritage\Vehicules\Vehicules\obj\Debug\net6.0\Vehicules.genruntimeconfig.cache
+H:\UAA14\Heritage\Vehicules\Vehicules\obj\Debug\net6.0\ref\Vehicules.dll

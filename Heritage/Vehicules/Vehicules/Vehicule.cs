@@ -59,7 +59,11 @@ namespace Vehicules
             _couleur = couleur;
             _prix = prix;
         }
-
+        
+        public virtual string Affiche()
+        {
+            return "Le vehucule " + Modele + " a pour marque : "+Marque+", comme couleur "+Couleur+" et comme prix : "+Prix;
+        }
 
     }
 }

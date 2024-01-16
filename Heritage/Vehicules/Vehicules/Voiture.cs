@@ -19,7 +19,13 @@ namespace Vehicules
             _motorisation = motorisation;
             _gps = gps;
         }
-        public override string chaineVoiture = "";
+        
+        public override string Affiche()
+        {
+            return "Le vehucule " + Modele + " a pour marque : " + Marque + ", comme couleur " + Couleur + " et comme prix : " + Prix+" possède commme mototisation : "+Motorisation+", GPS : "+Gps+".";
+        }
+        
+        
 
     }
 }
