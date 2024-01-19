@@ -25,6 +25,12 @@ namespace WpfACT4Exercice1
         {
             InitializeComponent();
 
+            Thickness myThickness = new Thickness();
+            myThickness.Bottom = 20;
+            myThickness.Left = 20;
+            myThickness.Right = 20;
+            myThickness.Top = 20;
+
             ColumnDefinition coldef1 = new ColumnDefinition();
             ColumnDefinition coldef2 = new ColumnDefinition();
             ColumnDefinition coldef3 = new ColumnDefinition();
@@ -49,6 +55,9 @@ namespace WpfACT4Exercice1
             txtBMonTexte.Background = Brushes.Black;
             stkBloc1.Children.Add(txtBMonTexte);
 
+            StackPanel stkFusion = new StackPanel();
+
+
             Button btnB = new Button();
             btnB.Content = "Calculer";
             Button btnB2 = new Button();
@@ -65,9 +74,6 @@ namespace WpfACT4Exercice1
             btnB3.Width = 100;
             btnB3.VerticalAlignment = VerticalAlignment.Bottom; btnB.Height = 100;
 
-            StackPanel stkFusion = new StackPanel();
-
-
             Grid.SetRow(stkBloc1, 0);
             Grid.SetColumn(stkBloc1, 0);
             Grid.SetColumnSpan(stkBloc1, 3);
@@ -82,6 +88,39 @@ namespace WpfACT4Exercice1
             grdMain.Children.Add(btnB);
             grdMain.Children.Add(btnB2);
             grdMain.Children.Add(btnB3);
+
+            stkFusion.Margin = myThickness;
+
+            // 3e partie (truc fusionné)
+            TextBlock txtBloc2 = new TextBlock();
+            txtBloc2.Text = "Infos:";
+            txtBloc2.FontFamily = new FontFamily("Arial");
+            txtBloc2.FontSize = 18;
+            txtBloc2.Foreground = Brushes.Blue;
+            txtBloc2.Background = Brushes.Yellow;
+           
+
+            TextBox txtBox = new TextBox();
+            txtBox.Text = "j'attend vos infos";
+            txtBox.FontFamily = new FontFamily("Arial");
+            txtBox.FontSize = 16;
+            txtBox.Height = 30;
+
+            ComboBox comboBox = new ComboBox();
+            comboBox.Items.Add("Item 1");
+            comboBox.Items.Add("Item 2");
+
+            stkFusion.Children.Add(txtBloc2);
+            stkFusion.Children.Add(txtBox);
+
+            Grid.SetRow(stkFusion, 2);
+            Grid.SetColumn(stkFusion, 0);
+            Grid.SetColumnSpan(stkFusion, 2);
+            grdMain.Children.Add(stkFusion);
+
+            Grid.SetRow(comboBox, 2);
+            Grid.SetColumn(comboBox, 2);
+            grdMain.Children.Add(comboBox);
 
 
         }
