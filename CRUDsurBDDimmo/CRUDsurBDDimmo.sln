@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDsurBDDimmo", "CRUDsurBDDimmo\CRUDsurBDDimmo.csproj", "{7444532E-DAA0-4FB7-BC72-E060071C9614}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7444532E-DAA0-4FB7-BC72-E060071C9614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7444532E-DAA0-4FB7-BC72-E060071C9614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7444532E-DAA0-4FB7-BC72-E060071C9614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7444532E-DAA0-4FB7-BC72-E060071C9614}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A3D0EC1-B69A-45BB-8573-3A938E7923CE}
+	EndGlobalSection
+EndGlobal
