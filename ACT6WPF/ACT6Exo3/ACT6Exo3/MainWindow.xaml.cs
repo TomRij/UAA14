@@ -25,7 +25,7 @@ namespace ACT6Exo3
         {
             InitializeComponent();
 
-            // Définition des colonnes 
+            // Définition des colonnes
             ColumnDefinition[] colDefs = new ColumnDefinition[8];
             for (int i = 0; i < 8; i++)
             {
@@ -50,22 +50,219 @@ namespace ACT6Exo3
                 {
                     x += 1;
                     textBlockMatrix[i, j] = new Button();
-                    textBlockMatrix[i, j].Content = x.ToString();
-                    textBlockMatrix[i, j].FontSize = 20;
-                    textBlockMatrix[i, j].Foreground = Brushes.Red;
-
-                    if ((i + j) % 2 == 0)
+                    if (i == 0 & j ==3)
                     {
-                        textBlockMatrix[i, j].Background = Brushes.Black;
+                        // king
+                        BitmapImage imageBouton = new BitmapImage();
+                        imageBouton.BeginInit();
+                        imageBouton.UriSource = new Uri("assets/k.png", UriKind.Relative);
+                        imageBouton.EndInit();
+                        Image imBouton = new Image();
+                        imBouton.Source = imageBouton;
+                        textBlockMatrix[i, j].Content = imBouton;
                     }
-                    else
+                    if (i == 7 & j == 3)
+                    {
+                        // king
+                        BitmapImage imageBouton = new BitmapImage();
+                        imageBouton.BeginInit();
+                        imageBouton.UriSource = new Uri("assets/k.png", UriKind.Relative);
+                        imageBouton.EndInit();
+                        Image imBouton = new Image();
+                        imBouton.Source = imageBouton;
+                        textBlockMatrix[i, j].Content = imBouton;
+                    }
+                    if (i == 0 & j == 4)
+                    {
+                        // Queen
+                        BitmapImage imageBouton = new BitmapImage();
+                        imageBouton.BeginInit();
+                        imageBouton.UriSource = new Uri("assets/q.png", UriKind.Relative);
+                        imageBouton.EndInit();
+                        Image imBouton = new Image();
+                        imBouton.Source = imageBouton;
+                        textBlockMatrix[i, j].Content = imBouton;
+                    }
+                    if (i == 7 & j == 4)
+                    {
+                        // Queen
+                        BitmapImage imageBouton = new BitmapImage();
+                        imageBouton.BeginInit();
+                        imageBouton.UriSource = new Uri("assets/q.png", UriKind.Relative);
+                        imageBouton.EndInit();
+                        Image imBouton = new Image();
+                        imBouton.Source = imageBouton;
+                        textBlockMatrix[i, j].Content = imBouton;
+                    }
+                    if (i == 1 & j < 8)
+                    {
+                        // Pion
+                        BitmapImage imageBouton = new BitmapImage();
+                        imageBouton.BeginInit();
+                        imageBouton.UriSource = new Uri("assets/p.png", UriKind.Relative);
+                        imageBouton.EndInit();
+                        Image imBouton = new Image();
+                        imBouton.Source = imageBouton;
+                        textBlockMatrix[i, j].Content = imBouton;
+                    }
+                    if (i == 6 & j < 8)
+                    {
+                        // Pion
+                        BitmapImage imageBouton = new BitmapImage();
+                        imageBouton.BeginInit();
+                        imageBouton.UriSource = new Uri("assets/p.png", UriKind.Relative);
+                        imageBouton.EndInit();
+                        Image imBouton = new Image();
+                        imBouton.Source = imageBouton;
+                        textBlockMatrix[i, j].Content = imBouton;
+                    }
+                    if (i == 0 & j == 0)
+                    {
+                        // Tower
+                        BitmapImage imageBouton = new BitmapImage();
+                        imageBouton.BeginInit();
+                        imageBouton.UriSource = new Uri("assets/t.png", UriKind.Relative);
+                        imageBouton.EndInit();
+                        Image imBouton = new Image();
+                        imBouton.Source = imageBouton;
+                        textBlockMatrix[i, j].Content = imBouton;
+                    }
+                    if (i == 0 & j == 7)
+                    {
+                        // Tower
+                        BitmapImage imageBouton = new BitmapImage();
+                        imageBouton.BeginInit();
+                        imageBouton.UriSource = new Uri("assets/t.png", UriKind.Relative);
+                        imageBouton.EndInit();
+                        Image imBouton = new Image();
+                        imBouton.Source = imageBouton;
+                        textBlockMatrix[i, j].Content = imBouton;
+                    }
+                    if (i == 7 & j == 0)
+                    {
+                        // Tower
+                        BitmapImage imageBouton = new BitmapImage();
+                        imageBouton.BeginInit();
+                        imageBouton.UriSource = new Uri("assets/t.png", UriKind.Relative);
+                        imageBouton.EndInit();
+                        Image imBouton = new Image();
+                        imBouton.Source = imageBouton;
+                        textBlockMatrix[i, j].Content = imBouton;
+                    }
+                    if (i == 7 & j == 0)
+                    {
+                        // Tower
+                        BitmapImage imageBouton = new BitmapImage();
+                        imageBouton.BeginInit();
+                        imageBouton.UriSource = new Uri("assets/t.png", UriKind.Relative);
+                        imageBouton.EndInit();
+                        Image imBouton = new Image();
+                        imBouton.Source = imageBouton;
+                        textBlockMatrix[i, j].Content = imBouton;
+                    }
+                    if (i == 0 & j == 2)
+                    {
+                        // Fou
+                        BitmapImage imageBouton = new BitmapImage();
+                        imageBouton.BeginInit();
+                        imageBouton.UriSource = new Uri("assets/kn.png", UriKind.Relative);
+                        imageBouton.EndInit();
+                        Image imBouton = new Image();
+                        imBouton.Source = imageBouton;
+                        textBlockMatrix[i, j].Content = imBouton;
+                    }
+                    if (i == 0 & j == 5)
+                    {
+                        // Fou
+                        BitmapImage imageBouton = new BitmapImage();
+                        imageBouton.BeginInit();
+                        imageBouton.UriSource = new Uri("assets/kn.png", UriKind.Relative);
+                        imageBouton.EndInit();
+                        Image imBouton = new Image();
+                        imBouton.Source = imageBouton;
+                        textBlockMatrix[i, j].Content = imBouton;
+                    }
+                    if (i == 7 & j == 2)
+                    {
+                        // Fou
+                        BitmapImage imageBouton = new BitmapImage();
+                        imageBouton.BeginInit();
+                        imageBouton.UriSource = new Uri("assets/kn.png", UriKind.Relative);
+                        imageBouton.EndInit();
+                        Image imBouton = new Image();
+                        imBouton.Source = imageBouton;
+                        textBlockMatrix[i, j].Content = imBouton;
+                    }
+                    if (i == 7 & j == 5)
+                    {
+                        // Fou
+                        BitmapImage imageBouton = new BitmapImage();
+                        imageBouton.BeginInit();
+                        imageBouton.UriSource = new Uri("assets/kn.png", UriKind.Relative);
+                        imageBouton.EndInit();
+                        Image imBouton = new Image();
+                        imBouton.Source = imageBouton;
+                        textBlockMatrix[i, j].Content = imBouton;
+                    }
+                    if (i == 0 & j == 1)
+                    {
+                        // Cavalier
+                        BitmapImage imageBouton = new BitmapImage();
+                        imageBouton.BeginInit();
+                        imageBouton.UriSource = new Uri("assets/kn.png", UriKind.Relative);
+                        imageBouton.EndInit();
+                        Image imBouton = new Image();
+                        imBouton.Source = imageBouton;
+                        textBlockMatrix[i, j].Content = imBouton;
+                    }
+                    if (i == 0 & j == 6)
+                    {
+                        // Cavalier
+                        BitmapImage imageBouton = new BitmapImage();
+                        imageBouton.BeginInit();
+                        imageBouton.UriSource = new Uri("assets/kn.png", UriKind.Relative);
+                        imageBouton.EndInit();
+                        Image imBouton = new Image();
+                        imBouton.Source = imageBouton;
+                        textBlockMatrix[i, j].Content = imBouton;
+                    }
+                    if (i == 7 & j == 1)
+                    {
+                        // Cavalier
+                        BitmapImage imageBouton = new BitmapImage();
+                        imageBouton.BeginInit();
+                        imageBouton.UriSource = new Uri("assets/kn.png", UriKind.Relative);
+                        imageBouton.EndInit();
+                        Image imBouton = new Image();
+                        imBouton.Source = imageBouton;
+                        textBlockMatrix[i, j].Content = imBouton;
+                    }
+                    if (i == 7 & j == 6)
+                    {
+                        // Cavalier
+                        BitmapImage imageBouton = new BitmapImage();
+                        imageBouton.BeginInit();
+                        imageBouton.UriSource = new Uri("assets/kn.png", UriKind.Relative);
+                        imageBouton.EndInit();
+                        Image imBouton = new Image();
+                        imBouton.Source = imageBouton;
+                        textBlockMatrix[i, j].Content = imBouton;
+                    }
+                    if ((i + j) % 2 == 0)
                     {
                         textBlockMatrix[i, j].Background = Brushes.White;
                     }
+                    else
+                    {
+                        textBlockMatrix[i, j].Background = Brushes.Black;
+                    }
+
+                    
 
                     Grid.SetRow(textBlockMatrix[i, j], i);
                     Grid.SetColumn(textBlockMatrix[i, j], j);
                     gridMain.Children.Add(textBlockMatrix[i, j]);
+
                 }
             }
         }
