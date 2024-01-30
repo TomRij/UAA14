@@ -20,8 +20,9 @@ namespace HeritageExo3
                 _cote = value;
             }
         }
-        public Carre(int carre, string couleur)
+        public Carre(int cote, string couleur)
         {
+            _cote = cote;
             _couleur = couleur;
         }
 
