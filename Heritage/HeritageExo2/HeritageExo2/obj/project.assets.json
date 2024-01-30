@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\200082\\source\\repos\\HeritageExo2\\HeritageExo2\\HeritageExo2.csproj",
+      "projectUniqueName": "H:\\UAA14\\Heritage\\HeritageExo2\\HeritageExo2\\HeritageExo2.csproj",
       "projectName": "HeritageExo2",
-      "projectPath": "C:\\Users\\200082\\source\\repos\\HeritageExo2\\HeritageExo2\\HeritageExo2.csproj",
+      "projectPath": "H:\\UAA14\\Heritage\\HeritageExo2\\HeritageExo2\\HeritageExo2.csproj",
       "packagesPath": "C:\\Users\\200082\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\200082\\source\\repos\\HeritageExo2\\HeritageExo2\\obj\\",
+      "outputPath": "H:\\UAA14\\Heritage\\HeritageExo2\\HeritageExo2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\200082\\AppData\\Roaming\\NuGet\\NuGet.Config",

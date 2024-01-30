@@ -27,7 +27,7 @@ namespace HeritageExo2
 
         public override string Affiche()
         {
-            return "Le Lapin " + Nom + " a pour date de naissance : " + DateDeNaissance + ", comme numéeo de puce " + NumeroPuce + ", participe au concours : " + Concours + ", à comme taille d'oreille : " + TailleOreille + ", saute : " + saut + ".";
+            return "Le Lapin " + Nom + " a pour date de naissance : " + DateDeNaissance + ", comme numéeo de puce " + NumeroPuce + ", participe au concours : " + Concours + ", à comme taille d'oreille : " + TailleOreille + ", saute : " + Sauter(false) + ".";
         }
     }
 }

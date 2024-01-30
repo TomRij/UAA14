@@ -8,23 +8,23 @@ namespace HeritageExo2
 {
     class Chat : Animal
     {
-        public decimal TailleOreille
-        {
-            get { return _tailleOreille; }
-        }
-        bool Sauter(bool type)
+        bool Miauler(bool type)
         {
             return type;
         }
 
-        public Lapin(decimal tailleOreille, string nom, string dateDeNaissance, decimal numeroPuce, bool concours) : base(nom, dateDeNaissance, numeroPuce, concours)
+        bool Ronronner(bool type)
         {
-            _tailleOreille = tailleOreille;
+            return type;
+        }
+        public Chat(string nom, string dateDeNaissance, decimal numeroPuce, bool concours) : base(nom, dateDeNaissance, numeroPuce, concours)
+        {
+            
         }
 
         public override string Affiche()
         {
-            return "Le Lapin " + Nom + " a pour date de naissance : " + DateDeNaissance + ", comme numéeo de puce " + NumeroPuce + ", participe au concours : " + Concours + ", à comme taille d'oreille : " + TailleOreille + ", saute : " + saut + ".";
+            return "Le Chat " + Nom + " a pour date de naissance : " + DateDeNaissance + ", comme numéeo de puce " + NumeroPuce + ", miaule : " + Miauler(true) + ", ronronne : " + Ronronner(false);
         }
     }
 }

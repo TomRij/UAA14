@@ -1,0 +1,15 @@
+H:\UAA14\Heritage\HeritageExo2\HeritageExo2\obj\Debug\net6.0\HeritageExo2.csproj.AssemblyReference.cache
+H:\UAA14\Heritage\HeritageExo2\HeritageExo2\obj\Debug\net6.0\HeritageExo2.GeneratedMSBuildEditorConfig.editorconfig
+H:\UAA14\Heritage\HeritageExo2\HeritageExo2\obj\Debug\net6.0\HeritageExo2.AssemblyInfoInputs.cache
+H:\UAA14\Heritage\HeritageExo2\HeritageExo2\obj\Debug\net6.0\HeritageExo2.AssemblyInfo.cs
+H:\UAA14\Heritage\HeritageExo2\HeritageExo2\obj\Debug\net6.0\HeritageExo2.csproj.CoreCompileInputs.cache
+H:\UAA14\Heritage\HeritageExo2\HeritageExo2\bin\Debug\net6.0\HeritageExo2.exe
+H:\UAA14\Heritage\HeritageExo2\HeritageExo2\bin\Debug\net6.0\HeritageExo2.deps.json
+H:\UAA14\Heritage\HeritageExo2\HeritageExo2\bin\Debug\net6.0\HeritageExo2.runtimeconfig.json
+H:\UAA14\Heritage\HeritageExo2\HeritageExo2\bin\Debug\net6.0\HeritageExo2.dll
+H:\UAA14\Heritage\HeritageExo2\HeritageExo2\bin\Debug\net6.0\HeritageExo2.pdb
+H:\UAA14\Heritage\HeritageExo2\HeritageExo2\obj\Debug\net6.0\HeritageExo2.dll
+H:\UAA14\Heritage\HeritageExo2\HeritageExo2\obj\Debug\net6.0\refint\HeritageExo2.dll
+H:\UAA14\Heritage\HeritageExo2\HeritageExo2\obj\Debug\net6.0\HeritageExo2.pdb
+H:\UAA14\Heritage\HeritageExo2\HeritageExo2\obj\Debug\net6.0\HeritageExo2.genruntimeconfig.cache
+H:\UAA14\Heritage\HeritageExo2\HeritageExo2\obj\Debug\net6.0\ref\HeritageExo2.dll
