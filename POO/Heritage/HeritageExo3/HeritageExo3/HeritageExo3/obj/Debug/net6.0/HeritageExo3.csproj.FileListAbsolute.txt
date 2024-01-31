@@ -1,0 +1,15 @@
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo3\HeritageExo3\HeritageExo3\bin\Debug\net6.0\HeritageExo3.exe
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo3\HeritageExo3\HeritageExo3\bin\Debug\net6.0\HeritageExo3.deps.json
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo3\HeritageExo3\HeritageExo3\bin\Debug\net6.0\HeritageExo3.runtimeconfig.json
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo3\HeritageExo3\HeritageExo3\bin\Debug\net6.0\HeritageExo3.dll
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo3\HeritageExo3\HeritageExo3\bin\Debug\net6.0\HeritageExo3.pdb
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo3\HeritageExo3\HeritageExo3\obj\Debug\net6.0\HeritageExo3.csproj.AssemblyReference.cache
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo3\HeritageExo3\HeritageExo3\obj\Debug\net6.0\HeritageExo3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo3\HeritageExo3\HeritageExo3\obj\Debug\net6.0\HeritageExo3.AssemblyInfoInputs.cache
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo3\HeritageExo3\HeritageExo3\obj\Debug\net6.0\HeritageExo3.AssemblyInfo.cs
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo3\HeritageExo3\HeritageExo3\obj\Debug\net6.0\HeritageExo3.csproj.CoreCompileInputs.cache
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo3\HeritageExo3\HeritageExo3\obj\Debug\net6.0\HeritageExo3.dll
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo3\HeritageExo3\HeritageExo3\obj\Debug\net6.0\refint\HeritageExo3.dll
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo3\HeritageExo3\HeritageExo3\obj\Debug\net6.0\HeritageExo3.pdb
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo3\HeritageExo3\HeritageExo3\obj\Debug\net6.0\HeritageExo3.genruntimeconfig.cache
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo3\HeritageExo3\HeritageExo3\obj\Debug\net6.0\ref\HeritageExo3.dll

@@ -1,0 +1,15 @@
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo4\HeritageExo4\obj\Debug\net6.0\HeritageExo4.csproj.AssemblyReference.cache
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo4\HeritageExo4\obj\Debug\net6.0\HeritageExo4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo4\HeritageExo4\obj\Debug\net6.0\HeritageExo4.AssemblyInfoInputs.cache
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo4\HeritageExo4\obj\Debug\net6.0\HeritageExo4.AssemblyInfo.cs
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo4\HeritageExo4\obj\Debug\net6.0\HeritageExo4.csproj.CoreCompileInputs.cache
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo4\HeritageExo4\bin\Debug\net6.0\HeritageExo4.exe
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo4\HeritageExo4\bin\Debug\net6.0\HeritageExo4.deps.json
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo4\HeritageExo4\bin\Debug\net6.0\HeritageExo4.runtimeconfig.json
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo4\HeritageExo4\bin\Debug\net6.0\HeritageExo4.dll
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo4\HeritageExo4\bin\Debug\net6.0\HeritageExo4.pdb
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo4\HeritageExo4\obj\Debug\net6.0\HeritageExo4.dll
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo4\HeritageExo4\obj\Debug\net6.0\refint\HeritageExo4.dll
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo4\HeritageExo4\obj\Debug\net6.0\HeritageExo4.pdb
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo4\HeritageExo4\obj\Debug\net6.0\HeritageExo4.genruntimeconfig.cache
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Heritage\HeritageExo4\HeritageExo4\obj\Debug\net6.0\ref\HeritageExo4.dll

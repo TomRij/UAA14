@@ -26,7 +26,7 @@ namespace HeritageExo3
             _couleur = couleur;
         }
 
-        public override int CalculPerimertre()
+        public override int CalculPerimetre()
         {
             return 4 * _cote;
         }
@@ -38,7 +38,7 @@ namespace HeritageExo3
 
         public override string Afficher()
         {
-            return "Carre[tailleCotes:" + cote + ";couleur:" + _couleur + ";perimetre:" + CalculPerimetre() + ";surface:" + CalculSurface() + "]";
+            return $"Carre[côté:{_cote}; couleur:{_couleur}; périmètre:{CalculPerimetre()}; surface:{CalculSurface()}]";
         }
     }
 }

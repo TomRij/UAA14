@@ -10,27 +10,32 @@ namespace HeritageExo3
     {
         protected int _longueur;
         protected int _largeur;
+
         public int Longueur
         {
-            get
-            {
-                return _longueur;
-            }
-            set
-            {
-                _longueur = value;
-            }
+            get { return _longueur; }
+            set { _longueur = value; }
         }
+
         public int Largeur
         {
-            get
-            {
-                return _largeur;
-            }
-            set
-            {
-                _largeur = value;
-            }
+            get { return _largeur; }
+            set { _largeur = value; }
+        }
+
+        public override int CalculPerimetre()
+        {
+            return 2 * (_longueur + _largeur);
+        }
+
+        public override int CalculSurface()
+        {
+            return _longueur * _largeur;
+        }
+
+        public override string Afficher()
+        {
+            return $"Rectangle[longueur:{_longueur}; largeur:{_largeur}; couleur:{_couleur}; périmètre:{CalculPerimetre()}; surface:{CalculSurface()}]";
         }
     }
 }

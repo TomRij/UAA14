@@ -15,8 +15,11 @@ namespace HeritageExo3
             get { return _couleur; }
             set { _couleur = value; }
         }
+
         public abstract int CalculSurface();
-        public abstract int CalculPerimertre();
+        public abstract int CalculPerimetre();
+
+        public abstract string Afficher();
 
     }
 }

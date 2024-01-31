@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\200082\\.nuget\\packages\\": {}
+    "C:\\Users\\Tom\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\UAA14\\Heritage\\HeritageExo3\\HeritageExo3\\HeritageExo3\\HeritageExo3.csproj",
+      "projectUniqueName": "C:\\Users\\Tom\\OneDrive\\Documents\\école\\6e\\Info\\UAA14\\POO\\Heritage\\HeritageExo3\\HeritageExo3\\HeritageExo3\\HeritageExo3.csproj",
       "projectName": "HeritageExo3",
-      "projectPath": "H:\\UAA14\\Heritage\\HeritageExo3\\HeritageExo3\\HeritageExo3\\HeritageExo3.csproj",
-      "packagesPath": "C:\\Users\\200082\\.nuget\\packages\\",
-      "outputPath": "H:\\UAA14\\Heritage\\HeritageExo3\\HeritageExo3\\HeritageExo3\\obj\\",
+      "projectPath": "C:\\Users\\Tom\\OneDrive\\Documents\\école\\6e\\Info\\UAA14\\POO\\Heritage\\HeritageExo3\\HeritageExo3\\HeritageExo3\\HeritageExo3.csproj",
+      "packagesPath": "C:\\Users\\Tom\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tom\\OneDrive\\Documents\\école\\6e\\Info\\UAA14\\POO\\Heritage\\HeritageExo3\\HeritageExo3\\HeritageExo3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\200082\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tom\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
