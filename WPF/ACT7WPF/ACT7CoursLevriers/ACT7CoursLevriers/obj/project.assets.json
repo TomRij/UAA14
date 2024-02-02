@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\UAA14\\ACT7WPF\\ACT7CoursLevriers\\ACT7CoursLevriers\\ACT7CoursLevriers.csproj",
+      "projectUniqueName": "H:\\UAA14\\WPF\\ACT7WPF\\ACT7CoursLevriers\\ACT7CoursLevriers\\ACT7CoursLevriers.csproj",
       "projectName": "ACT7CoursLevriers",
-      "projectPath": "H:\\UAA14\\ACT7WPF\\ACT7CoursLevriers\\ACT7CoursLevriers\\ACT7CoursLevriers.csproj",
+      "projectPath": "H:\\UAA14\\WPF\\ACT7WPF\\ACT7CoursLevriers\\ACT7CoursLevriers\\ACT7CoursLevriers.csproj",
       "packagesPath": "C:\\Users\\200082\\.nuget\\packages\\",
-      "outputPath": "H:\\UAA14\\ACT7WPF\\ACT7CoursLevriers\\ACT7CoursLevriers\\obj\\",
+      "outputPath": "H:\\UAA14\\WPF\\ACT7WPF\\ACT7CoursLevriers\\ACT7CoursLevriers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\200082\\AppData\\Roaming\\NuGet\\NuGet.Config",
