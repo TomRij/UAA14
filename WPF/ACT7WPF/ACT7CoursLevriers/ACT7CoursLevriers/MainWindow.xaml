@@ -24,6 +24,32 @@
                 <RowDefinition Height="2*" />
                 <RowDefinition Height="1*" />
             </Grid.RowDefinitions>
+            <StackPanel>
+                <TextBlock Text="Pari minimum : 5 écus" Foreground="Black" FontWeight="Bold"
+                   FontSize="24"/>
+                <RadioButton Click="Button_Click">
+                    <TextBlock Text="Joe possède 50 écus" FontSize="20"/>
+                </RadioButton>
+                <RadioButton Click="Button_Click">
+                    <TextBlock Text="Bob possède 50 écus" FontSize="20"/>
+                </RadioButton>
+                <RadioButton Click="Button_Click">
+                    <TextBlock Text="Bill possède 50 écus" FontSize="20"/>
+                </RadioButton>
+            </StackPanel>
+            <StackPanel Grid.Column="2">
+                <TextBlock Text="Paris" Foreground="Black" FontWeight="Bold"
+                   FontSize="24"/>
+                <RadioButton Click="Button_Click">
+                    <TextBlock Text="Joe n'a pas encore parié" FontSize="20"/>
+                </RadioButton>
+                <RadioButton Click="Button_Click">
+                    <TextBlock Text="Bob n'a pas encore parié" FontSize="20"/>
+                </RadioButton>
+                <RadioButton Click="Button_Click">
+                    <TextBlock Text="Bill n'a pas encore parié" FontSize="20"/>
+                </RadioButton>
+            </StackPanel>
         </Grid>
     </Grid>
 </Window>
