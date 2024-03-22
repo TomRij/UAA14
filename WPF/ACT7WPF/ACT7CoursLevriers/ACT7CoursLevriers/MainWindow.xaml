@@ -16,6 +16,7 @@
             <Image Source="/assets/racetrack.png" />
         </Canvas>
         <Grid Grid.Row="1">
+            <TextBlock Text="Salle des paris" Foreground="Black" FontSize="18"/>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="1*"/>
@@ -24,31 +25,38 @@
                 <RowDefinition Height="2*" />
                 <RowDefinition Height="1*" />
             </Grid.RowDefinitions>
-            <StackPanel>
-                <TextBlock Text="Pari minimum : 5 écus" Foreground="Black" FontWeight="Bold"
-                   FontSize="24"/>
+            <StackPanel Grid.Column="0">
+                <TextBlock Text="Pari minimum : 5 écus" Foreground="Black" FontWeight="Bold" FontSize="24" Padding="20"/>
                 <RadioButton Click="Button_Click">
-                    <TextBlock Text="Joe possède 50 écus" FontSize="20"/>
+                    <TextBlock Text="Joe possède 50 écus" FontSize="20" Margin="8"/>
                 </RadioButton>
                 <RadioButton Click="Button_Click">
-                    <TextBlock Text="Bob possède 50 écus" FontSize="20"/>
+                    <TextBlock Text="Bob possède 50 écus" FontSize="20" Margin="8"/>
                 </RadioButton>
                 <RadioButton Click="Button_Click">
-                    <TextBlock Text="Bill possède 50 écus" FontSize="20"/>
+                    <TextBlock Text="Bill possède 50 écus" FontSize="20" Margin="8"/>
                 </RadioButton>
             </StackPanel>
-            <StackPanel Grid.Column="2">
+            <StackPanel Grid.Column="1">
+                <TextBlock Text="" Foreground="Black" FontSize="18"/>
                 <TextBlock Text="Paris" Foreground="Black" FontWeight="Bold"
                    FontSize="24"/>
-                <RadioButton Click="Button_Click">
-                    <TextBlock Text="Joe n'a pas encore parié" FontSize="20"/>
-                </RadioButton>
-                <RadioButton Click="Button_Click">
-                    <TextBlock Text="Bob n'a pas encore parié" FontSize="20"/>
-                </RadioButton>
-                <RadioButton Click="Button_Click">
-                    <TextBlock Text="Bill n'a pas encore parié" FontSize="20"/>
-                </RadioButton>
+                 <TextBlock Text="Joe n'a pas encore parié" FontSize="20" Margin="10"/>
+                <TextBlock Text="Bob n'a pas encore parié" FontSize="20" Margin="10"/>
+                <TextBlock Text="Bill n'a pas encore parié" FontSize="20" Margin="10"/>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Grid.ColumnSpan="2">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock x:Name="textBlockParieurActuel" FontSize="20" Text="ParieurX"  Height="30" Margin="10"/>
+                    <Button x:Name="buttonMettrePari" Content="Parier" FontSize="20" Height="30" Margin="10"/>
+                    <TextBox x:Name="textBoxEcusPari" MinWidth="30" TextAlignment="Center" Text="5" FontSize="20" FontWeight="Bold" BorderBrush="Black" Height="30" Margin="10"/>
+                    <TextBlock Text="écus sur le chien numéro" FontSize="20" Height="30" Margin="10"/>
+                    <TextBox x:Name="textBoxNumeroChienPari" MinWidth="30" TextAlignment="Center" Text="" FontSize="20" FontWeight="Bold" BorderBrush="Black" Height="30" Margin="10"/>
+                    <Button x:Name="buttonLancerCourse" Content="Lancer la course !" Padding="5,0,5,0" FontSize="20" Margin="10,0,0,0" />
+                </StackPanel>
+                <StackPanel  Grid.Row="2" Grid.ColumnSpan="2">
+                    <Button x:Name="buttonReset" Margin="10,10,10,10" Content="Remettre à zéro" FontSize="20" />
+                </StackPanel>
             </StackPanel>
         </Grid>
     </Grid>
