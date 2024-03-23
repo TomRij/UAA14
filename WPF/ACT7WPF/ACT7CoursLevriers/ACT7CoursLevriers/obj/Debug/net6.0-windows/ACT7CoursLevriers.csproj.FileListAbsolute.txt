@@ -40,3 +40,9 @@ H:\UAA14\WPF\ACT7WPF\ACT7CoursLevriers\ACT7CoursLevriers\obj\Debug\net6.0-window
 H:\UAA14\WPF\ACT7WPF\ACT7CoursLevriers\ACT7CoursLevriers\obj\Debug\net6.0-windows\ACT7CoursLevriers.pdb
 H:\UAA14\WPF\ACT7WPF\ACT7CoursLevriers\ACT7CoursLevriers\obj\Debug\net6.0-windows\ACT7CoursLevriers.genruntimeconfig.cache
 H:\UAA14\WPF\ACT7WPF\ACT7CoursLevriers\ACT7CoursLevriers\obj\Debug\net6.0-windows\ref\ACT7CoursLevriers.dll
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\WPF\ACT7WPF\ACT7CoursLevriers\ACT7CoursLevriers\obj\Debug\net6.0-windows\ACT7CoursLevriers.csproj.AssemblyReference.cache
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\WPF\ACT7WPF\ACT7CoursLevriers\ACT7CoursLevriers\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\WPF\ACT7WPF\ACT7CoursLevriers\ACT7CoursLevriers\obj\Debug\net6.0-windows\ACT7CoursLevriers_MarkupCompile.cache
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\WPF\ACT7WPF\ACT7CoursLevriers\ACT7CoursLevriers\obj\Debug\net6.0-windows\ACT7CoursLevriers.dll
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\WPF\ACT7WPF\ACT7CoursLevriers\ACT7CoursLevriers\obj\Debug\net6.0-windows\refint\ACT7CoursLevriers.dll
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\WPF\ACT7WPF\ACT7CoursLevriers\ACT7CoursLevriers\obj\Debug\net6.0-windows\ACT7CoursLevriers.pdb

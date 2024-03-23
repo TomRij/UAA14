@@ -11,10 +11,13 @@
             <RowDefinition Height="271"></RowDefinition>
             <RowDefinition Height="431"></RowDefinition>
         </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Canvas Width="850" Height="271">
+                <Image Source="/assets/racetrack.png" />
+            </Canvas>
+            <Canvas x:Name="piste"/>
 
-        <Canvas Width="850" Height="271">
-            <Image Source="/assets/racetrack.png" />
-        </Canvas>
+        </Grid>
         <Grid Grid.Row="1">
             <TextBlock Text="Salle des paris" Foreground="Black" FontSize="18"/>
             <Grid.ColumnDefinitions>
@@ -27,23 +30,20 @@
             </Grid.RowDefinitions>
             <StackPanel Grid.Column="0">
                 <TextBlock Text="Pari minimum : 5 écus" Foreground="Black" FontWeight="Bold" FontSize="24" Padding="20"/>
-                <RadioButton Click="Button_Click">
-                    <TextBlock Text="Joe possède 50 écus" FontSize="20" Margin="8"/>
-                </RadioButton>
-                <RadioButton Click="Button_Click">
-                    <TextBlock Text="Bob possède 50 écus" FontSize="20" Margin="8"/>
-                </RadioButton>
-                <RadioButton Click="Button_Click">
-                    <TextBlock Text="Bill possède 50 écus" FontSize="20" Margin="8"/>
-                </RadioButton>
+                <RadioButton x:Name="radioButtonParieur1" GroupName="parieurActuel"  Click="Button_Click" Content="Joe possède 50 écus" FontSize="20" Margin="8"/>
+
+                <RadioButton x:Name="radioButtonParieur2" GroupName="parieurActuel" Click="Button_Click" Content="Bob possède 50 écus" FontSize="20" Margin="8"/>
+
+                <RadioButton x:Name="radioButtonParieur3" GroupName="parieurActuel" Click="Button_Click" Content="Bill possède 50 écus" FontSize="20" Margin="8"/>
             </StackPanel>
             <StackPanel Grid.Column="1">
                 <TextBlock Text="" Foreground="Black" FontSize="18"/>
                 <TextBlock Text="Paris" Foreground="Black" FontWeight="Bold"
                    FontSize="24"/>
-                 <TextBlock Text="Joe n'a pas encore parié" FontSize="20" Margin="10"/>
-                <TextBlock Text="Bob n'a pas encore parié" FontSize="20" Margin="10"/>
-                <TextBlock Text="Bill n'a pas encore parié" FontSize="20" Margin="10"/>
+                
+                 <TextBlock x:Name="textBlockParieur1" Text="Joe n'a pas encore parié" FontSize="20" Margin="10"/>
+                <TextBlock x:Name="textBlockParieur2" Text="Bob n'a pas encore parié" FontSize="20" Margin="10"/>
+                <TextBlock x:Name="textBlockParieur3" Text="Bill n'a pas encore parié" FontSize="20" Margin="10"/>
             </StackPanel>
             <StackPanel Grid.Row="2" Grid.ColumnSpan="2">
                 <StackPanel Orientation="Horizontal">
