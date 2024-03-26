@@ -15,6 +15,6 @@ namespace Conception
 			get { return _ingredients; }
 			set { _ingredients = value; }
 		}
-
+		
 	}
 }

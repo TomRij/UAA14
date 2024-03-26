@@ -19,9 +19,5 @@ namespace Conception
         {
 
         }
-        public Servir(Cocktail cocktail)
-        {
-
-        }
     }
 }

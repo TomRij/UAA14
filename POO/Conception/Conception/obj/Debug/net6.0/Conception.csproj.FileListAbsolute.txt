@@ -1,0 +1,5 @@
+H:\UAA14\POO\Conception\Conception\obj\Debug\net6.0\Conception.csproj.AssemblyReference.cache
+H:\UAA14\POO\Conception\Conception\obj\Debug\net6.0\Conception.GeneratedMSBuildEditorConfig.editorconfig
+H:\UAA14\POO\Conception\Conception\obj\Debug\net6.0\Conception.AssemblyInfoInputs.cache
+H:\UAA14\POO\Conception\Conception\obj\Debug\net6.0\Conception.AssemblyInfo.cs
+H:\UAA14\POO\Conception\Conception\obj\Debug\net6.0\Conception.csproj.CoreCompileInputs.cache

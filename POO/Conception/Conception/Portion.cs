@@ -11,6 +11,12 @@ namespace Conception
 		private Liquide _contenu;
         private double _quantite;
 
+        public Portion(Liquide contenu, double quantite)
+        {
+            _contenu = contenu;
+            _quantite = quantite;
+        }
+
         public int Contenu
 		{
 			get { return _contenu; }

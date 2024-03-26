@@ -12,6 +12,12 @@ namespace Conception
 		private string _nom = "";
 		private string _type = "";
 
+        public Liquide(string  nom, string type)
+        {
+            _nom = nom;
+            _type = type;
+        }
+
 		public string Nom
 		{
 			get { return _nom; }
