@@ -11,15 +11,12 @@
             <RowDefinition Height="271"></RowDefinition>
             <RowDefinition Height="431"></RowDefinition>
         </Grid.RowDefinitions>
-        <Grid Grid.Row="0">
-            <Canvas Width="850" Height="271">
-                <Image Source="/assets/racetrack.png" />
-            </Canvas>
-            <Canvas x:Name="piste"/>
+        <!--<Grid Grid.Row="0">-->
+        <Canvas x:Name="piste" Grid.Row="0"  Width="850" Height="271">
+            <Image Source="/assets/racetrack.png" />
+        </Canvas>
 
-        </Grid>
         <Grid Grid.Row="1">
-            <TextBlock Text="Salle des paris" Foreground="Black" FontSize="18"/>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="1*"/>
@@ -28,13 +25,12 @@
                 <RowDefinition Height="2*" />
                 <RowDefinition Height="1*" />
             </Grid.RowDefinitions>
-            <StackPanel Grid.Column="0">
+        <TextBlock Text="Salle des paris" Foreground="Black" FontSize="18"/>
+        <StackPanel Grid.Column="0">
                 <TextBlock Text="Pari minimum : 5 écus" Foreground="Black" FontWeight="Bold" FontSize="24" Padding="20"/>
-                <RadioButton x:Name="radioButtonParieur1" GroupName="parieurActuel"  Click="Button_Click" Content="Joe possède 50 écus" FontSize="20" Margin="8"/>
-
-                <RadioButton x:Name="radioButtonParieur2" GroupName="parieurActuel" Click="Button_Click" Content="Bob possède 50 écus" FontSize="20" Margin="8"/>
-
-                <RadioButton x:Name="radioButtonParieur3" GroupName="parieurActuel" Click="Button_Click" Content="Bill possède 50 écus" FontSize="20" Margin="8"/>
+                <RadioButton x:Name="radioButtonParieur1" GroupName="parieurActuel" Content="Joe possède 50 écus" FontSize="20" Margin="8"/>
+                <RadioButton x:Name="radioButtonParieur2" GroupName="parieurActuel" Content="Bob possède 50 écus" FontSize="20" Margin="8"/>
+                <RadioButton x:Name="radioButtonParieur3" GroupName="parieurActuel" Content="Bill possède 50 écus" FontSize="20" Margin="8"/>
             </StackPanel>
             <StackPanel Grid.Column="1">
                 <TextBlock Text="" Foreground="Black" FontSize="18"/>
@@ -48,7 +44,7 @@
             <StackPanel Grid.Row="2" Grid.ColumnSpan="2">
                 <StackPanel Orientation="Horizontal">
                     <TextBlock x:Name="textBlockParieurActuel" FontSize="20" Text="ParieurX"  Height="30" Margin="10"/>
-                    <Button x:Name="buttonMettrePari" Content="Parier" FontSize="20" Height="30" Margin="10"/>
+                    <Button x:Name="btnParie" Content="Parier" FontSize="20" Height="30" Margin="10" Click="BtnParie_Click"/>
                     <TextBox x:Name="textBoxEcusPari" MinWidth="30" TextAlignment="Center" Text="5" FontSize="20" FontWeight="Bold" BorderBrush="Black" Height="30" Margin="10"/>
                     <TextBlock Text="écus sur le chien numéro" FontSize="20" Height="30" Margin="10"/>
                     <TextBox x:Name="textBoxNumeroChienPari" MinWidth="30" TextAlignment="Center" Text="" FontSize="20" FontWeight="Bold" BorderBrush="Black" Height="30" Margin="10"/>

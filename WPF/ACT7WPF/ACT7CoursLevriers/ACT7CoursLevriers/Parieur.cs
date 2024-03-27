@@ -39,17 +39,21 @@ namespace ACT7CoursLevriers
         }
         public void GetDescriptionPari(TextBlock txtInfos)
         {
-            string chaine = "";
-            if (_monPari != null && _monPari.Montant != 0)
+            if (txtInfos != null)
             {
-                chaine = $"{this.Nom} a parié {_monPari.Montant} sur le chien #{_monPari.NumChien + 1}";
+                string chaine = "";
+                if (_monPari != null && _monPari.Montant != 0)
+                {
+                    chaine = $"{this.Nom} a parié {_monPari.Montant} sur le chien #{_monPari.NumChien + 1}";
+                }
+                else
+                {
+                    chaine = $"{this.Nom} n'a pas encore parié ";
+                }
+                txtInfos.Text = chaine;
             }
-            else
-            {
-                chaine = $"{this.Nom} n'a pas encore parié ";
-            }
-            txtInfos.Text = chaine;
         }
+
         public void ResetPari()
         {
             _monPari = null;

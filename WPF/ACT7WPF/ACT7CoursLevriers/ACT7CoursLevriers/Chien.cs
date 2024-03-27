@@ -13,6 +13,11 @@ namespace ACT7CoursLevriers
         private bool _gagne;
         private MainWindow _mainWindow;
 
+        public bool Gagne // Propriété pour vérifier si le chien a gagné
+        {
+            get { return _gagne; }
+        }
+
         public Chien(int numeroChien, int[] position, int longueurPiste, MainWindow mainWindow)
         {
             _longueurPiste = longueurPiste;
@@ -26,7 +31,7 @@ namespace ACT7CoursLevriers
             // création de l'image
             BitmapImage imageChien = new BitmapImage();
             imageChien.BeginInit();
-            imageChien.UriSource = new Uri("pack://application:,,,/assets/dog.png");
+            imageChien.UriSource = new Uri("C:\\Users\\Tom\\OneDrive\\Documents\\école\\6e\\Info\\UAA14\\WPF\\ACT7WPF\\ACT7CoursLevriers\\ACT7CoursLevriers\\assets\\dog.png");
             imageChien.EndInit();
 
             _imageChien = new Image();
