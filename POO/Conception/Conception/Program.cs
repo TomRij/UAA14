@@ -449,14 +449,14 @@ namespace Conception
                             {
                                 Console.WriteLine(recette);
                                 Console.WriteLine("Taper le numéro de recette qui vous intéresses : ");
+                                int numeroEntre = 0;
                                 do
                                 {
-                                    int numeroEntre = 0;
                                     if (!int.TryParse(Console.ReadLine(), out numeroEntre))
                                     {
                                         Console.WriteLine("Oups vous avez fait une erreur de frappe, réessayez ! ");
                                     }
-                                } while ();
+                                } while (!int.TryParse(Console.ReadLine(), out numeroEntre));
                             }
                             break;
                         case 2:

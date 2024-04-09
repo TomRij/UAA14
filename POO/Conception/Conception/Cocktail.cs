@@ -23,9 +23,9 @@ namespace Conception
             _recetteCocktail = RecetteCocktail;
         }
 
-        public Cocktail CreerCocktail()
-        {
+        //public Cocktail CreerCocktail()
+        //{
             
-        }
+        //}
     }
 }

@@ -33,14 +33,14 @@ namespace Conception
             }
          }
 
-        public bool Verser(Portion portion)
-        {
+        //public bool Verser(Portion portion)
+        //{
 
-        }
-        public bool Jeter()
-        {
+        //}
+        //public bool Jeter()
+        //{
 
-        }
+        //}
 
     }
 }

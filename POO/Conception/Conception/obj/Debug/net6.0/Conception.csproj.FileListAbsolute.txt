@@ -3,3 +3,8 @@ H:\UAA14\POO\Conception\Conception\obj\Debug\net6.0\Conception.GeneratedMSBuildE
 H:\UAA14\POO\Conception\Conception\obj\Debug\net6.0\Conception.AssemblyInfoInputs.cache
 H:\UAA14\POO\Conception\Conception\obj\Debug\net6.0\Conception.AssemblyInfo.cs
 H:\UAA14\POO\Conception\Conception\obj\Debug\net6.0\Conception.csproj.CoreCompileInputs.cache
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Conception\Conception\obj\Debug\net6.0\Conception.csproj.AssemblyReference.cache
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Conception\Conception\obj\Debug\net6.0\Conception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Conception\Conception\obj\Debug\net6.0\Conception.AssemblyInfoInputs.cache
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Conception\Conception\obj\Debug\net6.0\Conception.AssemblyInfo.cs
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Conception\Conception\obj\Debug\net6.0\Conception.csproj.CoreCompileInputs.cache
