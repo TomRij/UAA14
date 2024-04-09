@@ -16,6 +16,13 @@ namespace Conception
         public double Contenance { get { return _contenance; } set { _contenance = value; } }
         public Recette RecetteCocktail { get {  return _recetteCocktail; } }
 
+        public Cocktail(string _nom, double _contenance, Recette RecetteCocktail)
+        {
+            _nom = Nom;
+            _contenance = Contenance;
+            _recetteCocktail = RecetteCocktail;
+        }
+
         public Cocktail CreerCocktail()
         {
             

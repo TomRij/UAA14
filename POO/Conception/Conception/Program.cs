@@ -4,6 +4,8 @@ namespace Conception
 {
     internal class Program
     {
+        private static int nbreEntre;
+
         static void Main(string[] args)
         {
             Bar bar = new Bar();
@@ -337,6 +339,7 @@ namespace Conception
                 new Portion(new Liquide("Eau gazeuse", "eau"), 100)
             };
 
+
             Recette[] toutesLesBoissons = new Recette[]
 {
                 mojito,
@@ -373,6 +376,58 @@ namespace Conception
 
             Shaker myShake = new Shaker(100, true);
 
+            // Instanciation des objets Bouteille pour chaque type d'alcool ou de liqueur
+            Bouteille rhumBlanc = new Bouteille();
+            Bouteille tequila = new Bouteille();
+            Bouteille rhumAmbré = new Bouteille();
+            Bouteille cachaça = new Bouteille();
+            Bouteille vodka = new Bouteille();
+            Bouteille tripleSec = new Bouteille();
+            Bouteille peachSchnapps = new Bouteille();
+            Bouteille crèmeDeCoco = new Bouteille();
+            Bouteille siropAgave = new Bouteille();
+            Bouteille siropFramboise = new Bouteille();
+            Bouteille siropFraise = new Bouteille();
+            Bouteille siropAnanas = new Bouteille();
+
+            // Création d'un tableau (ou autre structure de données) pour stocker toutes les bouteilles
+            Bouteille[] toutesLesBouteilles = new Bouteille[]
+            {
+                rhumBlanc,
+                tequila,
+                rhumAmbré,
+                cachaça,
+                vodka,
+                tripleSec,
+                peachSchnapps,
+                crèmeDeCoco,
+                siropAgave,
+                siropFramboise,
+                siropFraise,
+                siropAnanas
+            };
+
+            Cave cave = new Cave();
+
+            // Création d'un tableau pour stocker les portions de chaque boisson
+            Portion[] toutesLesPortions = new Portion[toutesLesBouteilles.Length];
+
+            // Création des portions pour chaque bouteille
+            for (int i = 0; i < toutesLesBouteilles.Length; i++)
+            {
+                Bouteille bouteille = toutesLesBouteilles[i];
+                toutesLesPortions[i] = new Portion(bouteille.Contenu, 100); // Par exemple, 100 unités par portion
+            }
+
+            Cocktail theMojito = new Cocktail("Mojito", 178, mojito);
+            Cocktail theMargarita = new Cocktail("Margarita", 178, margarita);
+            Cocktail thePinaColada = new Cocktail("Piña Colada", 178, pinaColada);
+            Cocktail theDaiquiri = new Cocktail("Daiquiri", 178, daiquiri);
+            Cocktail theMojitoFramboise = new Cocktail("Mojito Framboise", 178, mojitoFramboise);
+            Cocktail theMojitoFraise = new Cocktail("Mojito Fraise", 178, mojitoFraise);
+            Cocktail theMojitoCassis = new Cocktail("Mojito Cassis", 178, mojitoCassis);
+
+
             do
             {
                 Console.WriteLine("Bienvenue dans le grand bar du Fight Club");
@@ -392,7 +447,16 @@ namespace Conception
                         case 1:
                             foreach (Recette recette in toutesLesBoissons)
                             {
-                                Console.WriteLine(recette.Nom);
+                                Console.WriteLine(recette);
+                                Console.WriteLine("Taper le numéro de recette qui vous intéresses : ");
+                                do
+                                {
+                                    int numeroEntre = 0;
+                                    if (!int.TryParse(Console.ReadLine(), out numeroEntre))
+                                    {
+                                        Console.WriteLine("Oups vous avez fait une erreur de frappe, réessayez ! ");
+                                    }
+                                } while ();
                             }
                             break;
                         case 2:
@@ -406,7 +470,8 @@ namespace Conception
                     }
                 }
 
-            } while (nbreEntre != 7) ;
+            } while (nbreEntre != 7);
+             
 
             }
         }
