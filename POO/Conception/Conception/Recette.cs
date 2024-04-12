@@ -9,12 +9,24 @@ namespace Conception
     class Recette
     {
 		private Portion[] _ingredients;
+		private string _nomRecettes;
+
+		public Recette(Portion[] ingredients, string nomRecettes)
+		{
+			_ingredients = ingredients;
+			_nomRecettes = nomRecettes;
+		}
+
+		public string NomRecettes
+		{
+			get { return _nomRecettes; }
+			set { _nomRecettes = value;}
+		}
 
 		public Portion[] Ingredients
 		{
 			get { return _ingredients; }
 			set { _ingredients = value; }
 		}
-		
 	}
 }

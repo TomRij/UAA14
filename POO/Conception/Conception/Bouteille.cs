@@ -11,6 +11,12 @@ namespace Conception
         private Liquide _contenu;
         private double _contenance;
 
+        public Bouteille(Liquide contenu, double contenance)
+        {
+            Contenu = contenu;
+            Contenance = contenance;
+        }   
+
         public Liquide Contenu
         {
             get 
