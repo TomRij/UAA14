@@ -15,14 +15,14 @@ namespace Conception
             get { return _prenom; }
         }
 
-        public bool Commander(Recette recette, out Cocktail cocktail)
+        public bool Fabriquer(Cocktail cocktail, ref Bouteille[] bouteille, ref Shaker myShake)
         {
             // réalisation de la recette
-            cocktail = null;
+            
             // prendre les ingrédients / boissons
-            for (int prendre = 0; prendre < recette.Length; prendre++)
+            for (int prendre = 0; prendre < cocktail.RecetteCocktail.Length; prendre++)
             {
-                Bouteille bouteille = 
+                
                 // enlever quantité d'ingrédients prit dans la recette
             }
         }

@@ -292,7 +292,7 @@ namespace Conception
             };
 
 
-            Shaker myShake = new Shaker(100, true);
+            Shaker myShake = new Shaker(200, true);
 
             Bouteille[] toutesLesBouteilles = new Bouteille[]
             {
