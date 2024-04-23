@@ -24,7 +24,7 @@ namespace Conception
                     new Portion(new Liquide("Feuilles de menthe", "plante"), 6),
                     new Portion(new Liquide("Sucre de canne", "sucre"), 2),
                     new Portion(new Liquide("Eau gazeuse", "eau"), 100)
-                }, "Mojito"),
+                }, "mojito"),
 
                 // 1. Margarita
                 new Recette(new Portion[]
@@ -322,13 +322,14 @@ namespace Conception
                 toutesLesPortions[i] = new Portion(bouteille.Contenu, 100); // Par exemple, 100 unités par portion
             }
 
-            Cocktail theMojito = new Cocktail("Mojito", 178, mojito);
-            Cocktail theMargarita = new Cocktail("Margarita", 178, margarita);
-            Cocktail thePinaColada = new Cocktail("Piña Colada", 178, pinaColada);
-            Cocktail theDaiquiri = new Cocktail("Daiquiri", 178, daiquiri);
-            Cocktail theMojitoFramboise = new Cocktail("Mojito Framboise", 178, mojitoFramboise);
-            Cocktail theMojitoFraise = new Cocktail("Mojito Fraise", 178, mojitoFraise);
-            Cocktail theMojitoCassis = new Cocktail("Mojito Cassis", 178, mojitoCassis);
+            // Initialisation des cocktails individuels
+            Cocktail theMojito = new Cocktail("Mojito", 178, toutesLesBoissons[0]);
+            Cocktail theMargarita = new Cocktail("Margarita", 178, toutesLesBoissons[1]);
+            Cocktail thePinaColada = new Cocktail("Piña Colada", 178, toutesLesBoissons[2]);
+            Cocktail theDaiquiri = new Cocktail("Daiquiri", 178, toutesLesBoissons[3]);
+            Cocktail theMojitoFramboise = new Cocktail("Mojito Framboise", 178, toutesLesBoissons[4]);
+            Cocktail theMojitoFraise = new Cocktail("Mojito Fraise", 178, toutesLesBoissons[5]);
+            Cocktail theMojitoCassis = new Cocktail("Mojito Cassis", 178, toutesLesBoissons[17]);
 
 
             do
@@ -364,8 +365,7 @@ namespace Conception
                                     Console.WriteLine("Oups vous avez fait une erreur de frappe, réessayez ! ");
                                 }
                                 Console.WriteLine(Steve + "va s'occuper de votre" + toutesLesBoissons[numeroEntre]);
-                                toutesLesBoissons[numeroEntre] = string ""cocktailFinito"";
-                                Steve.Commander(toutesLesBoissons[numeroEntre], );
+                                Steve.Commander(toutesLesBoissons[numeroEntre], out Cocktail leCockatilFini);
                             } while (!int.TryParse(Console.ReadLine(), out numeroEntre));
                             break;
                         case 3:

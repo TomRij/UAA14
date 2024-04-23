@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tom\\OneDrive\\Documents\\école\\6e\\Info\\UAA14\\POO\\Conception\\Conception\\Conception.csproj": {}
+    "H:\\UAA14\\POO\\Conception\\Conception\\Conception.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tom\\OneDrive\\Documents\\école\\6e\\Info\\UAA14\\POO\\Conception\\Conception\\Conception.csproj": {
+    "H:\\UAA14\\POO\\Conception\\Conception\\Conception.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tom\\OneDrive\\Documents\\école\\6e\\Info\\UAA14\\POO\\Conception\\Conception\\Conception.csproj",
+        "projectUniqueName": "H:\\UAA14\\POO\\Conception\\Conception\\Conception.csproj",
         "projectName": "Conception",
-        "projectPath": "C:\\Users\\Tom\\OneDrive\\Documents\\école\\6e\\Info\\UAA14\\POO\\Conception\\Conception\\Conception.csproj",
-        "packagesPath": "C:\\Users\\Tom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tom\\OneDrive\\Documents\\école\\6e\\Info\\UAA14\\POO\\Conception\\Conception\\obj\\",
+        "projectPath": "H:\\UAA14\\POO\\Conception\\Conception\\Conception.csproj",
+        "packagesPath": "C:\\Users\\200082\\.nuget\\packages\\",
+        "outputPath": "H:\\UAA14\\POO\\Conception\\Conception\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\200082\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

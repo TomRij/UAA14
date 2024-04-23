@@ -17,7 +17,14 @@ namespace Conception
 
         public bool Commander(Recette recette, out Cocktail cocktail)
         {
-
+            // réalisation de la recette
+            cocktail = null;
+            // prendre les ingrédients / boissons
+            for (int prendre = 0; prendre < recette.Length; prendre++)
+            {
+                Bouteille bouteille = 
+                // enlever quantité d'ingrédients prit dans la recette
+            }
         }
 
         public override string ToString() { return Prenom; }
