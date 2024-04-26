@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.Design;
+﻿using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Net.Http.Headers;
 using System.Runtime.InteropServices;
 using System.Threading;
@@ -292,43 +293,52 @@ namespace Conception
             };
 
 
-            Shaker myShake = new Shaker(100, true);
+            Shaker myShake = new Shaker(150, true);
 
-            Bouteille[] toutesLesBouteilles = new Bouteille[]
+            Liquide[] liquides = new Liquide[]
             {
-                new Bouteille(new Liquide("rhumBlanc", "alcool"), 100),
-                new Bouteille(new Liquide("tequila", "alcool"), 100),
-                new Bouteille(new Liquide("rhumAmbré", "alcool"), 100),
-                new Bouteille(new Liquide("cachaça", "alcool"), 100),
-                new Bouteille(new Liquide("vodka", "alcool"), 100),
-                new Bouteille(new Liquide("Peach Schnapps", "liqueur"), 100),
-                new Bouteille(new Liquide("Crème de coco", "crème"), 100),
-                new Bouteille(new Liquide("Sirop d'agave", "sirop"), 100),
-                new Bouteille(new Liquide("Sirop de framboise", "sirop"), 100),
-                new Bouteille(new Liquide("Sirop de fraise", "sirop"), 100),
-                new Bouteille(new Liquide("Sirop d'ananas", "sirop"), 100),
-
+                new Liquide("rhumBlanc", "alcool"),
+                new Liquide("tequila", "alcool"),
+                new Liquide("rhumAmbré", "alcool"),
+                new Liquide("cachaça", "alcool"),
+                new Liquide("vodka", "alcool"),
+                new Liquide("Peach Schnapps", "liqueur"),
+                new Liquide("Crème de coco", "crème"),
+                new Liquide("Sirop d'agave", "sirop"),
+                new Liquide("Sirop de framboise", "sirop"),
+                new Liquide("Sirop de fraise", "sirop"),
+                new Liquide("Sirop d'ananas", "sirop")
             };
-            
-            Cave cave = new Cave();
+  
+            // Création de la liste bouteille
+            List<Bouteille> bouteilles = new List<Bouteille>();
+
+            // Création de bouteille et ajout dans la list Bouteille
+            foreach (Liquide liquide in liquides)
+            {
+                Bouteille bouteille = new Bouteille(liquide, 100); 
+                bouteilles.Add(bouteille);
+            }
 
             // Création d'un tableau pour stocker les portions de chaque boisson
-            Portion[] toutesLesPortions = new Portion[toutesLesBouteilles.Length];
+            Portion[] toutesLesPortions = new Portion[liquides.Length];
 
             // Création des portions pour chaque bouteille
-            for (int i = 0; i < toutesLesBouteilles.Length; i++)
+            for (int i = 0; i < liquides.Length; i++)
             {
-                Bouteille bouteille = toutesLesBouteilles[i];
+                Bouteille bouteille = liquides[i];
                 toutesLesPortions[i] = new Portion(bouteille.Contenu, 100); // Par exemple, 100 unités par portion
             }
 
-            Cocktail theMojito = new Cocktail("Mojito", 178, mojito);
-            Cocktail theMargarita = new Cocktail("Margarita", 178, margarita);
-            Cocktail thePinaColada = new Cocktail("Piña Colada", 178, pinaColada);
-            Cocktail theDaiquiri = new Cocktail("Daiquiri", 178, daiquiri);
-            Cocktail theMojitoFramboise = new Cocktail("Mojito Framboise", 178, mojitoFramboise);
-            Cocktail theMojitoFraise = new Cocktail("Mojito Fraise", 178, mojitoFraise);
-            Cocktail theMojitoCassis = new Cocktail("Mojito Cassis", 178, mojitoCassis);
+            // Création de la liste cocktails
+            List<Cocktail> cocktails = new List<Cocktail>();
+
+            // Création des cocktails pour chaque recette et ajout dans lsite cocktails
+            foreach (Recette recette in toutesLesBoissons)
+            {
+                Cocktail cocktail = new Cocktail(recette);
+                cocktails.Add(cocktail);
+            }
 
 
             do
@@ -364,8 +374,8 @@ namespace Conception
                                     Console.WriteLine("Oups vous avez fait une erreur de frappe, réessayez ! ");
                                 }
                                 Console.WriteLine(Steve + "va s'occuper de votre" + toutesLesBoissons[numeroEntre]);
-                                toutesLesBoissons[numeroEntre] = string ""cocktailFinito"";
-                                Steve.Commander(toutesLesBoissons[numeroEntre], );
+                                Cocktail cocktail = new Cocktail(toutesLesBoissons[numeroEntre]);
+                                Steve.Commander(toutesLesBoissons[numeroEntre], out cocktail);
                             } while (!int.TryParse(Console.ReadLine(), out numeroEntre));
                             break;
                         case 3:

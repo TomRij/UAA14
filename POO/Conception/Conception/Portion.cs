@@ -26,9 +26,10 @@ namespace Conception
             get { return _quantite; }
         }
 
-        public bool AjouterPortion(Portion portion)
+        public bool TesterPortion(Shaker myShake,Bouteille bouteille)
         {
-
+            ok = false;
+            myShake
         }
     }
 }

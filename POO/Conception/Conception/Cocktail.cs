@@ -16,6 +16,8 @@ namespace Conception
         public double Contenance { get { return _contenance; } set { _contenance = value; } }
         public Recette RecetteCocktail { get {  return _recetteCocktail; } }
 
+        public Recette Recette { get; }
+
         public Cocktail(string _nom, double _contenance, Recette RecetteCocktail)
         {
             _nom = Nom;
@@ -23,9 +25,14 @@ namespace Conception
             _recetteCocktail = RecetteCocktail;
         }
 
+        public Cocktail(Recette recette)
+        {
+            Recette = recette;
+        }
+
         //public Cocktail CreerCocktail()
         //{
-            
+
         //}
     }
 }
