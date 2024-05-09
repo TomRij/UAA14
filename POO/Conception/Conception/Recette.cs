@@ -28,5 +28,7 @@ namespace Conception
 			get { return _ingredients; }
 			set { _ingredients = value; }
 		}
-	}
+
+        public int Length { get; internal set; }
+    }
 }
