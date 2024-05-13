@@ -8,28 +8,33 @@ namespace Conception
 {
     class Portion
     {
-		private Liquide _contenu;
-        private double _quantite;
+            private Liquide _contenu;
+            private double _quantite;
 
-        public Portion(Liquide contenu, double quantite)
-        {
-            _contenu = contenu;
-            _quantite = quantite;
-        }
+            public Portion(Liquide contenu, double quantite)
+            {
+                _contenu = contenu;
+                _quantite = quantite;
+            }
 
-        public int Contenu
-		{
-			get { return _contenu; }
-		}
-        public int Quantite
-        {
-            get { return _quantite; }
-        }
+            public Liquide Contenu
+            {
+                get { return _contenu; }
+            }
 
-        public bool TesterPortion(Shaker myShake,Bouteille bouteille)
-        {
-            ok = false;
-            myShake
-        }
+            public double Quantite
+            {
+                get { return _quantite; }
+            }
+
+            public bool TesterPortion(Shaker myShake, Bouteille bouteille)
+            {
+                bool ok = false;
+                if (myShake.ContenanceMax >= (myShake.CalculQuantiteContenu() + this.Quantite * 0.2) && this.Quantite * 0.2 <= bouteille.Contenance)
+                {
+                    ok = true;
+                }
+                return ok;
+            }
     }
 }

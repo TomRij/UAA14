@@ -1,45 +1,50 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Conception
 {
-    class Shaker
+    public class Shaker
     {
         double _contenanceMax;
-        Portion[] _contenu;
+        List<Portion> _contenu;
         bool _propre;
 
+        // CONSTRUCTEUR
         public Shaker(double contenanceMax, bool propre)
         {
             _contenanceMax = contenanceMax;
             _propre = propre;
+            _contenu = new List<Portion>();
         }
 
-        double ContenanceMax
-        {
-            get { return _contenanceMax; }
-        }
-        Portion[] Contenu { get { return _contenu; } set { _contenu = value; } }
         bool Propre { get { return _propre; } set { _propre = value; } }
 
-        public bool AjouterPortion (Portion portion)
+        // Permet d'avoir la contenance Max
+        public double ContenanceMax
         {
+            get { return _contenanceMax; }
+        }  
 
+        // Calcul la quantite du contenu
+        public double CalculQuantiteContenu()
+        {
+            double quantite = 0;
+            foreach (Portion contenu in _contenu)
+            {
+                quantite = quantite + contenu.Quantite*0.2;
+            }
+            return quantite;
         }
-        public Cocktail MelangeContenu()
-        {
 
-        }
-        static void Vider()
+        // Ajouter la quantité de liquide de la portion dans le shaker
+        internal void AjouterPortion(Portion portion)
         {
-
-        }
-        public bool Laver()
-        {
-
+            _contenu.Add(portion);
+            _propre = false;
         }
     }
 }

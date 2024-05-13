@@ -15,9 +15,14 @@ namespace Conception
             get { return _prenom; }
         }
 
+        public int Commander(string menu, int nbRecettes)
+        {
+            string choixUser = "";
+            int numeroCocktail = 0;
+        }
+
         public bool Fabriquer(Cocktail cocktail, ref Bouteille[] bouteille, ref Shaker myShake)
         {
-<<<<<<< HEAD
             cocktail = null;
 
             // Vérification recette 
@@ -40,7 +45,6 @@ namespace Conception
                 {
                     
                 }
-=======
             // réalisation de la recette
             
             // prendre les ingrédients / boissons
@@ -48,7 +52,6 @@ namespace Conception
             {
                 
                 // enlever quantité d'ingrédients prit dans la recette
->>>>>>> 0616d12bc2faa604616400c6a7ebbbc1ff06578d
             }
         }
 
