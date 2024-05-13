@@ -39,14 +39,20 @@ namespace Conception
             }
          }
 
-        public bool Verser(Portion portion)
+        internal bool Verser(Portion portion)
         {
-            
+            Console.WriteLine("La portion a été versée dans la bouteille.");
+            // Logique pour verser la portion dans la bouteille
+            return true; // ou false selon votre logique d'application
         }
-        //public bool Jeter()
-        //{
 
-        //}
+        public bool Jeter()
+        {
+            Console.WriteLine("La bouteille a été jetée.");
+            // Logique pour jeter la bouteille
+            return true; // ou false selon votre logique d'application
+        }
+
 
     }
 }

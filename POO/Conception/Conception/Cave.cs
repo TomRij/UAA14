@@ -12,17 +12,6 @@ namespace Conception
 
         public NbBouteille[] Bouteilles { get { return _bouteille; } set { _bouteille = value; } }
 
-        public bool RemonterBouteille(Liquide liquide, out Bouteille[] bouteille)
-        {
-
-        }
-        public bool AjouterBouteille(Bouteille bouteille)
-        {
-
-        }
-        public string AfficheInventaireCave()
-        {
-
-        }
+        
     }
 }

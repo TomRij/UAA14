@@ -30,9 +30,16 @@ namespace Conception
             Recette = recette;
         }
 
-        //public Cocktail CreerCocktail()
-        //{
+        public string AfficherRecette()
+        {
+            string chaine = "";
+            chaine = "Recette du " + Nom + "\n";
 
-        //}
+            for (int i = 0; i < RecetteCocktail.Ingredients.Length-1; i++)
+            {
+                chaine += RecetteCocktail.Ingredients[i].Quantite + " de " + RecetteCocktail.Ingredients[i].Contenu.Nom + "\n";
+            }
+            return chaine;
+        }
     }
 }

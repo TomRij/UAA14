@@ -8,3 +8,13 @@ C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Conception\Conception\o
 C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Conception\Conception\obj\Debug\net6.0\Conception.AssemblyInfoInputs.cache
 C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Conception\Conception\obj\Debug\net6.0\Conception.AssemblyInfo.cs
 C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Conception\Conception\obj\Debug\net6.0\Conception.csproj.CoreCompileInputs.cache
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Conception\Conception\bin\Debug\net6.0\Conception.exe
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Conception\Conception\bin\Debug\net6.0\Conception.deps.json
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Conception\Conception\bin\Debug\net6.0\Conception.runtimeconfig.json
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Conception\Conception\bin\Debug\net6.0\Conception.dll
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Conception\Conception\bin\Debug\net6.0\Conception.pdb
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Conception\Conception\obj\Debug\net6.0\Conception.dll
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Conception\Conception\obj\Debug\net6.0\refint\Conception.dll
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Conception\Conception\obj\Debug\net6.0\Conception.pdb
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Conception\Conception\obj\Debug\net6.0\Conception.genruntimeconfig.cache
+C:\Users\Tom\OneDrive\Documents\école\6e\Info\UAA14\POO\Conception\Conception\obj\Debug\net6.0\ref\Conception.dll
