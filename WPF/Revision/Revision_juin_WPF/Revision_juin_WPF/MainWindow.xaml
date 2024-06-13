@@ -1,0 +1,48 @@
+﻿<Window x:Class="Revision_juin_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Revision_juin_WPF"
+        mc:Ignorable="d"
+        Title="CE WPF CHANCE 2" Height="1000" Width="1200">
+    <Grid Background="#EBD9B4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="8*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Foreground="#638889" FontSize="34" FontWeight="Bold" Text="VERIDIONS VOS CONNAISSANCES EN WPF!" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <TextBlock x:Name="textBlockFooter" FontSize="30" FontWeight="Bold" Foreground="Red" Text="Test WPF 6T 2024" Grid.Row="2" Grid.ColumnSpan="2" VerticalAlignment="center" HorizontalAlignment="Center"></TextBlock>
+        <StackPanel Background="#9DBC98" Grid.Row="1" Grid.Column="1">
+            <GroupBox Header="Paramétrage" FontSize="22" FontWeight="bold" Margin="10,10,10,10">
+                <StackPanel>
+                    <GroupBox Header="Choix de la disposition" Margin="10,10,10,10">
+                        <StackPanel>
+                            <RadioButton x:Name="RadioSolitaire" Content="Solitaire"/>
+                            <RadioButton x:Name="RadioMarelle" Content="Marelle"/>
+                            <RadioButton x:Name="RadioBandeLaterale" Content="Une bande latérale"/>
+                        </StackPanel>
+                    </GroupBox>
+                    <GroupBox Header="Taille du plateau">
+                        <StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Nbre de ligne"/>
+                                <TextBox x:Name="BoxLigne" Margin="39,0,0,0" Width="30"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Nbre de colonne"/>
+                                <TextBox x:Name="BoxClonne" Margin="8,0,0,0" Width="30"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </GroupBox>
+                </StackPanel>
+            </GroupBox>
+            <Button x:Name="btnValider" FontWeight="Bold" FontSize="22" Height="50" Content="VALIDER" VerticalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Window>
